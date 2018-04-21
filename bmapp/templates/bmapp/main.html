@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <title>{% block title %}{% endblock %}</title>
+    <title>{% block title %}{% endblock %}BananaMango — funny t-shirts and more...</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800&subset=latin,cyrillic'
             rel='stylesheet' type='text/css'>
     <meta charset="UTF-8">
@@ -26,13 +26,13 @@
         <div class="col-lg-6 col-lg-offset-3">
             {% block header %}
             <div id="header">
-                <img src="{% static 'images/mo_exp.svg' %}" alt="">
+                <img class="img img-responsive" src="{% static 'images/banlogo800.png' %}" alt="">
             </div>
-            <div><span class="green">just a bunch of artists who want you to smile</span></div>
-            <div class="green" style="margin-top:2em">Follow us: <br>
-                <a style="color:#00a651" href="https://www.instagram.com/monkeyopera/"><i class="fab fa-instagram fa-5x"></i></a>
+            <div id="explainer"><span class="dark">just a bunch of artists who want you to smile</span></div>
+            <div class="dark" style="margin-top:2em">Follow us: <br>
+                <a class="dark" href="https://www.instagram.com/banana_mango_tees/"><i class="fab fa-instagram fa-5x"></i></a>
                 &nbsp;
-                <a style="color:#00a651" href="https://www.facebook.com/MonkeyOpera-967618860061070/"><i class="fab fa-facebook fa-5x"></i></a>
+                <a class="dark"  href="https://www.facebook.com/BananaMango-209407376501553/"><i class="fab fa-facebook fa-5x"></i></a>
                 </div>
             {% endblock %}
         </div>
